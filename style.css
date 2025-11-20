@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Serif", serif;
+    scroll-behavior: smooth;
+}
+
+#container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: #72ffff;
+    height: 164px;/*высота*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+    padding: 10px 20px 10px 20px ;
+}
+
+#navigation{
+display: flex;
+justify-content: space-between;
+background-color: #72ffff;
+align-items: center;
+height: 164px;
+}
+#h1-gorodok{
+    font-size: 40px;
+    padding: 0px 0px 0px 10px;
+    color: lch(55.11% 31.93 220.55);
+}
+.nav-link{
+    font-size: 24px; 
+    text-decoration: none;
+    color: lch(55.11% 31.93 220.55);
+}
+#write,#watch{
+    background-color: lch(85.73% 44.84 209.74);/*фоновой цвет*/
+    padding: 14px 24px 14px 24px; /*делает отступы внутри*/
+    border-radius: 16px;/*скургление края*/
+    font-size: 19px;
+}
+#opisanie{
+    width: 844px;/*ширина*/
+    font-size: 24px; /*размер текста*/
+    color:gray;/*цвет букв*/
+    margin: 24px 0px 40px 0px; /*дает отступы снаружи со всех сторон*/
+}
+#h1-ykrashenia{
+    font-size: 36px;/*размер текста*/
+}
+#kolcha-banner{
+    width: 1440px;
+    margin: 94px 0px 0px 0px;
+}
+#h2-katalojek{
+    margin: 100px 0px 0px 0px;
+    font-size: 46px;
+}
+#katalojek{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:40px;
+    
+}
+.h3-katalojek{
+    font-size: 28px;
+}
+#h2-otzivi{
+    margin: 100px 0 50px 0;
+    font-size: 48px;
+    
+}
+.otziv{
+    border: 1px solid gray;
+    width: 400px;
+    padding: 28px 28px 24px 28px;
+    border-radius: 20px;
+}
+.otziv-box{
+    display: flex;
+    justify-content: space-between;
+}
+.otziv>div {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+}
+.otziv-tekst{
+    font-size: 24px;
+}
+.otziv-name{
+    font-size: 16px;
+}
+.otziv-soc-sech{
+    color: gray;
+}
+.kontakt{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px 32px 20px 32px;
+}
+.napisat{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px 32px 20px 32px;
+}
+#h1-gorodochek{
+    color: black;
+    font-size: 45px;
+}
+#mysorka{
+    display: flex;
+    justify-content: space-between;
+    height: 236px;
+    padding: 85px 80px 85px 80px;
+    background-color: rgb(236, 236, 236);
+    margin: 107px 0px 0px 0px;
+
+}
+#mysorka-knopoggg{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#kontaktys{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
