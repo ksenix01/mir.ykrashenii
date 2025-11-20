@@ -139,4 +139,9 @@ height: 164px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 15px;
+}
+#kontaktys img{
+    height: 60px;
+
 }
