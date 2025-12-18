@@ -58,18 +58,18 @@ height: 164px;
     width: 1440px;
     margin: 94px 0px 0px 0px;
 }
-#h2-katalojek{
+#h2-katalojek, #h2-vibor-kole4{
     margin: 100px 0px 0px 0px;
     font-size: 46px;
 }
-#katalojek{
+#katalojek, #vibor-kole4{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap:40px;
     
 }
-.h3-katalojek{
+.h3-katalojek, #h3-vibor-kole4{
     font-size: 28px;
 }
 #h2-otzivi{
@@ -119,12 +119,12 @@ height: 164px;
     color: black;
     font-size: 45px;
 }
-#mysorka{
+#mysorka, #ksen_xi01{
     display: flex;
     justify-content: space-between;
     height: 236px;
     padding: 85px 80px 85px 80px;
-    background-color: rgb(236, 236, 236);
+    background-color: #d7d7d7;
     margin: 107px 0px 0px 0px;
 
 }
@@ -144,4 +144,29 @@ height: 164px;
 #kontaktys img{
     height: 60px;
 
+}
+#ak4ia{
+    display: flex;
+    justify-content: space-between;
+}
+#photo-ak4ii{
+    font-size: 32px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+#p-ak4ii{
+    color: rgb(126, 126, 126);
+}
+.a-zak4ii{
+    border-radius: 12px;
+    background-color: black;
+    display: inline-block;
+    padding: 14px 24px 14px 24px;
+    color: aliceblue;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    
 }
