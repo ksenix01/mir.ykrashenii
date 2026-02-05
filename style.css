@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,119 +8,163 @@
     scroll-behavior: smooth;
 }
 
-#container{
+#container {
     width: 1440px;
     margin: 0 auto;
 }
 
-nav{
+nav {
     background-color: #72ffff;
-    height: 164px;/*высота*/
+    height: 164px;
+    /*высота*/
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 48px;
-    padding: 10px 20px 10px 20px ;
+    padding: 10px 20px 10px 20px;
 }
 
-#navigation{
-display: flex;
-justify-content: space-between;
-background-color: #72ffff;
-align-items: center;
-height: 164px;
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: #72ffff;
+    align-items: center;
+    height: 164px;
+    /*высота*/
 }
-#h1-gorodok{
+
+#h1-gorodok {
     font-size: 40px;
     padding: 0px 0px 0px 10px;
     color: lch(55.11% 31.93 220.55);
 }
-.nav-link{
-    font-size: 24px; 
+
+.nav-link {
+    font-size: 24px;
     text-decoration: none;
     color: lch(55.11% 31.93 220.55);
 }
-#write,#watch{
-    background-color: lch(85.73% 44.84 209.74);/*фоновой цвет*/
-    padding: 14px 24px 14px 24px; /*делает отступы внутри*/
-    border-radius: 16px;/*скургление края*/
+
+#write,
+#watch {
+    background-color: lch(85.73% 44.84 209.74);
+    /*фоновой цвет*/
+    padding: 14px 24px 14px 24px;
+    /*делает отступы внутри*/
+    border-radius: 16px;
+    /*скургление края*/
     font-size: 19px;
 }
-#opisanie{
-    width: 844px;/*ширина*/
-    font-size: 24px; /*размер текста*/
-    color:gray;/*цвет букв*/
-    margin: 24px 0px 40px 0px; /*дает отступы снаружи со всех сторон*/
+
+#opisanie {
+    width: 844px;
+    /*ширина*/
+    font-size: 24px;
+    /*размер текста*/
+    color: gray;
+    /*цвет букв*/
+    margin: 24px 0px 40px 0px;
+    /*дает отступы снаружи со всех сторон*/
 }
-#h1-ykrashenia{
-    font-size: 36px;/*размер текста*/
+
+#h1-ykrashenia {
+    font-size: 36px;
+    /*размер текста*/
 }
-#kolcha-banner{
+
+#kolcha-banner {
     width: 1440px;
     margin: 94px 0px 0px 0px;
 }
-#h2-katalojek, #h2-vibor-kole4{
+
+#h2-katalojek,
+#h2-vibor-kole4 {
     margin: 100px 0px 0px 0px;
     font-size: 46px;
 }
-#katalojek, #vibor-kole4{
+
+#katalojek,
+#vibor-kole4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap:40px;
-    
+    gap: 40px;
+
 }
-.h3-katalojek, #h3-vibor-kole4{
+
+.h3-katalojek,
+#h3-vibor-kole4 {
     font-size: 28px;
 }
-#h2-otzivi{
+
+#h2-otzivi {
     margin: 100px 0 50px 0;
     font-size: 48px;
-    
+
 }
-.otziv{
+
+.otziv {
     border: 1px solid gray;
     width: 400px;
     padding: 28px 28px 24px 28px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.otziv-box{
+
+.otziv-box {
     display: flex;
     justify-content: space-between;
 }
+
 .otziv>div {
     display: flex;
     gap: 16px;
     margin-top: 32px;
 }
-.otziv-tekst{
+
+.otziv-tekst {
     font-size: 24px;
 }
-.otziv-name{
+
+.otziv-name {
     font-size: 16px;
 }
-.otziv-soc-sech{
+
+.otziv-soc-sech {
     color: gray;
 }
-.kontakt{
+
+.otziv-foto {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.kontakt {
     font-size: 40px;
     color: rgb(255, 255, 255);
     background-color: black;
     border-radius: 10px;
     padding: 20px 32px 20px 32px;
 }
-.napisat{
+
+.napisat {
     font-size: 40px;
     color: rgb(255, 255, 255);
     background-color: black;
     border-radius: 10px;
     padding: 20px 32px 20px 32px;
 }
-#h1-gorodochek{
+
+#h1-gorodochek {
     color: black;
     font-size: 45px;
 }
-#mysorka, #ksen_xi01{
+
+#mysorka,
+#ksen_xi01 {
     display: flex;
     justify-content: space-between;
     height: 236px;
@@ -128,45 +173,126 @@ height: 164px;
     margin: 107px 0px 0px 0px;
 
 }
-#mysorka-knopoggg{
+
+#mysorka-knopoggg {
     display: flex;
     gap: 20px;
     justify-content: center;
     align-items: center;
 }
-#kontaktys{
+
+#kontaktys {
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
-#kontaktys img{
+
+#kontaktys img {
     height: 60px;
 
 }
-#ak4ia{
+
+#ak4ia {
     display: flex;
     justify-content: space-between;
 }
-#photo-ak4ii{
+
+#photo-ak4ii {
     font-size: 32px;
     max-width: 800px;
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
-#p-ak4ii{
+
+#p-ak4ii {
     color: rgb(126, 126, 126);
 }
-.a-zak4ii{
+
+.a-zak4ii {
     border-radius: 12px;
     background-color: black;
     display: inline-block;
     padding: 14px 24px 14px 24px;
     color: aliceblue;
     text-decoration: none;
+    /*убирает подчеркивание*/
     width: 100%;
     text-align: center;
-    
+
+}
+
+#box {
+    transform: translate(-50%, -50%);
+    width: 404px;
+    /*height: 300px;*/
+    background-color: rgb(190, 255, 255);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* display: none; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#box-overlay {
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(199, 212, 255, 0.5);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    display: none;
+}
+
+.kol4a-card {
+    max-width: 404px;
+}
+
+.h3-vibor-kole4 {
+    font-size: 28px;
+    color: #6395ff;
+    text-decoration: none;
+}
+
+.h4-vibor-kole4 {
+    font-size: 24px;
+    color: #1861ff;
+    text-decoration: none;
+}
+
+.h5-vibor-kole4 {
+    font-size: 20px;
+    color: #0446d4;
+    text-decoration: none;
+}
+
+.kol4a-card a {
+    text-decoration: none;
+}
+
+#modalBox-img {
+    width: 100%;
+}
+
+#modalBox-by {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 12px 0 12px 0;
+    border-radius: 10px;
+ transition: .3s;
+ box-shadow: 4px 4px 8px 1px #575757;
+ text-decoration: none;
+ color: rgb(0, 208, 208);
+ font-size: 30px;
+}
+
+#modalBox-by:hover {
+    box-shadow: 14px 13px 12px 7px #575757;
 }

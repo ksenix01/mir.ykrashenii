@@ -1,0 +1,95 @@
+[
+    {
+        "id" :1,
+        "nazvanie" :"Цветочек UwU",
+        "fotikys": "../assets/kvitka.png",
+        "opisan4ik":"Сделано из розового бисера.",
+        "k4ena": "0.50 BYN"
+    },
+     {
+        "id" :2,
+        "nazvanie" :"Морская вода",
+        "fotikys": "../assets/more.png",
+        "opisan4ik":"Сделано из красивого, морского бисера.",
+        "k4ena": "0.50 BYN"
+    },
+     {
+        "id" :3,
+        "nazvanie" :"Ягодка",
+        "fotikys": "../assets/yiagodka.png",
+        "opisan4ik":"Сделано из черничного бисера и малинового.",
+        "k4ena": "0.50 BYN"
+    },
+     {
+        "id" :4,
+        "nazvanie" :"Голубая звезда",
+        "fotikys": "../assets/zorka.png",
+        "opisan4ik":"Сделано из голубого бисера со звездой.",
+        "k4ena": "0.50 BYN"
+    },
+    {
+        "id" :5,
+        "nazvanie" :"ФиоЗел",
+        "fotikys": "../assets/fiozelll.png",
+        "opisan4ik":"Сделано из фиолетового и зеленого бисера.vv",
+        "k4ena": "0.50 BYN"
+    },
+    {
+        "id" :6,
+        "nazvanie" :"ШокоChoko",
+        "fotikys": "../assets/shokoChoko.png",
+        "opisan4ik":"Сделано из шоколадно-коричневого бисера.",
+        "k4ena": "0.50 BYN"
+    },
+    {
+        "id" :7,
+        "nazvanie" :"Серебряное сердце",
+        "fotikys": "../assets/sarebrenoeSer4e.png",
+        "opisan4ik":"Сделано из серебряного бисера с бусинкой сердечком.",
+        "k4ena": "0.50 BYN"
+    },
+    {
+        "id" :8,
+        "nazvanie" :"Жемчужина",
+        "fotikys": "../assets/pearl.png",
+        "opisan4ik":"Сделано из бисера - бусин с блестящими бусинами.",
+        "k4ena": "0.50 BYN"
+    },
+    {
+        "id" :9,
+        "nazvanie" :"Happy Face",
+        "fotikys": "../assets/happyFace.png",
+        "opisan4ik":"Сделано из смайликов и сердечка.",
+        "k4ena": "0.50 BYN"
+    },
+    {
+        "id" :10,
+        "nazvanie" :"Плоскость",
+        "fotikys": "../assets/KirinoKol4o.png",
+        "opisan4ik":"Сделано из плоского бисера.",
+        "k4ena": "0.50 BYN"
+    },
+    {
+        "id" :11,
+        "nazvanie" :"БигБусинки",
+        "fotikys": "../assets/Biggg.png",
+        "opisan4ik":"Сделано из больших блестящих бусин.",
+        "k4ena": "0.50 BYN"
+    },
+    {
+        "id" : 12,
+        "nazvanie" :"MASYD",
+        "fotikys": "../assets/masyd.png",
+        "opisan4ik":"Сделано из зелёного бисера и букв.",
+        "k4ena": "0.50 BYN"
+    },
+     {
+        "id" : 13,
+        "nazvanie" :"Красная любовь",
+        "fotikys": "../assets/redLove.png",
+        "opisan4ik":"Сделано из красного бисерас белыми полосками.",
+        "k4ena": "0.50 BYN"
+    }
+
+
+]
