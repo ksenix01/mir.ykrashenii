@@ -2,14 +2,14 @@
     {
         "id" :1,
         "nazvanie" :"BIG",
-        "fotikys": "",
+        "fotikys": "../assets/BegKofeMachina.png",
         "opisan4ik":"Бегающяя кофе машинка.",
         "k4ena": "6.00 BYN"
     },
      {
         "id" :2,
         "nazvanie" :"Медя",
-        "fotikys": "",
+        "fotikys": "../assets/Meda.png",
         "opisan4ik":"Сделано из медведя и черного,серого бисера.",
         "k4ena": "5.00 BYN"
     }

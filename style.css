@@ -95,6 +95,7 @@ nav {
 .h3-katalojek,
 #h3-vibor-kole4 {
     font-size: 28px;
+ 
 }
 
 #h2-otzivi {
@@ -228,7 +229,7 @@ nav {
     transform: translate(-50%, -50%);
     width: 404px;
     /*height: 300px;*/
-    background-color: rgb(190, 255, 255);
+    background-color: rgb(183 216 255);
     position: fixed;
     top: 50%;
     left: 50%;
@@ -236,6 +237,8 @@ nav {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    box-shadow: 13px 15px 10px 2px #575757;
+    border-radius: 24px;
 }
 
 #box-overlay {
@@ -294,5 +297,12 @@ nav {
 }
 
 #modalBox-by:hover {
-    box-shadow: 14px 13px 12px 7px #575757;
+    box-shadow: 6px 8px 9px 5px #575757;
+}
+#katalojek a{
+    text-decoration: none;
+    color: #00b0e5;
+}
+#vibor-kole4 a{
+text-decoration: none;
 }

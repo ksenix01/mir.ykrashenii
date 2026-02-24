@@ -2,7 +2,7 @@
     {
         "id" :1,
         "nazvanie" :"Фиолеттка",
-        "fotikys": "",
+        "fotikys": "../assets/Fialettka.png",
         "opisan4ik":"Насаженный плоский бисер синеватого цвета и фиолетовый обычный бисер.",
         "k4ena": "1.00 BYN"
     }

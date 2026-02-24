@@ -1,0 +1,46 @@
+[
+    {
+        "id" :1,
+        "nazvanie" :"Прозрачная К",
+        "fotikys": "../assets/ProzK.png",
+        "opisan4ik":"Сделано из буквы К и прозрачного бисера.",
+        "k4ena": "2.00 BYN"
+    },
+     {
+        "id" :2,
+        "nazvanie" :"Серебрянное сердце",
+        "fotikys": "../assets/serab.png",
+        "opisan4ik":"Сделано из сердечка и серебряного бисера.",
+        "k4ena": "2.00 BYN"
+    },
+     {
+        "id" :3,
+        "nazvanie" :"Rainbow^^",
+        "fotikys": "../assets/radyga.png",
+        "opisan4ik":"Сделано из радужного и серебряного бисера.",
+        "k4ena": "2.00 BYN"
+    },
+     {
+        "id" :4,
+        "nazvanie" :"Голубое сердце",
+        "fotikys": "../assets/golyb.png",
+        "opisan4ik":"Сделано из сердечка с голубым бисером. ",
+        "k4ena": "2.00 BYN"
+    },
+    {
+        "id" :5,
+        "nazvanie" :"СерЧер",
+        "fotikys": "../assets/sercherrrr.png",
+        "opisan4ik":"Сделано из серебряного и черного бисера.",
+        "k4ena": "2.00 BYN"
+    },
+    {
+        "id" :6,
+        "nazvanie" :"Жаба",
+        "fotikys": "../assets/jaba.png",
+        "opisan4ik":"Сделано из всех оттенков зеленого бисера.",
+        "k4ena": "2.00 BYN"
+    }
+
+
+]

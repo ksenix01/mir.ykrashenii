@@ -2,7 +2,7 @@
     {
         "id" :1,
         "nazvanie" :"жалко",
-        "fotikys": "",
+        "fotikys": "../assets/P4elka.png",
         "opisan4ik":"-жалко. -Жалко только у пчелки!",
         "k4ena": "4.00 BYN"
     }
