@@ -9,7 +9,7 @@
 }
 
 #container {
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -29,8 +29,7 @@ nav {
     justify-content: space-between;
     background-color: #72ffff;
     align-items: center;
-    height: 164px;
-    /*высота*/
+    height: 164px;/*высота*/
 }
 
 #h1-gorodok {
@@ -45,6 +44,10 @@ nav {
     color: lch(55.11% 31.93 220.55);
 }
 
+.kata-kart {
+max-width: 405px;
+}
+
 #write,
 #watch {
     background-color: lch(85.73% 44.84 209.74);
@@ -57,7 +60,7 @@ nav {
 }
 
 #opisanie {
-    width: 844px;
+    max-width: 844px;
     /*ширина*/
     font-size: 24px;
     /*размер текста*/
@@ -73,7 +76,7 @@ nav {
 }
 
 #kolcha-banner {
-    width: 1440px;
+    width: 100%;
     margin: 94px 0px 0px 0px;
 }
 
@@ -305,4 +308,29 @@ nav {
 }
 #vibor-kole4 a{
 text-decoration: none;
+}
+.pre-btn{
+    color: #0051ff;
+    background-color: #85edff;
+    border-radius: 8px;
+    /* box-shadow: 6px 8px 9px 9px #c2f6ff; */
+    padding: 12px 20px 12px 20px;
+    font-size: 16px;
+    outline: none;/*убирает рамку*/
+    border: none;
+    transition: .3s;
+}
+.pre-btn:hover{
+    box-shadow: 6px 13px 9px 16px #c2f6ff;
+}
+#ytka{
+    height: 70px;
+    position: absolute;
+    bottom: 36px;
+}
+#korobka-s-ytkoi{
+    position: relative;
+}
+.img-katalojek{
+    width: 100%;
 }
