@@ -1,3 +1,14 @@
+@media screen and (max-width:1300px) {
+   .otziv-box {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; 
+}
+.otziv{
+    max-width: 1000px;
+    width: auto;
+}
+}
 @media screen and (max-width:1080px) {
     nav{
         gap: 32px;
@@ -24,4 +35,9 @@
 nav{
     height: 80px;
 }
+}
+@media screen and (max-width:620px){
+    .napisat {
+        font-size: 2;
+    }
 }
