@@ -59,3 +59,17 @@ nav{
     text-align: center;
 }
 }
+@media screen and (max-width:480px){
+#write{
+    display: block;
+}
+.nav-link{
+     display: none;
+}
+#h1-gorodochek{
+    font-size: 30px;
+}
+.kata-kart{
+    max-width: 80vw;
+}
+}
